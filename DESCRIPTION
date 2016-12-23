@@ -1,0 +1,16 @@
+Package: formancer
+Type: Package
+Title: Wrapper for the Formance Library
+Version: 0.1
+Date: 2016-12-23
+Authors@R: c(
+  person("Carl", "Ganz", email = "carlganz@gmail.com", role = c("aut", "cre")),
+  person("Omar", "Shammas", role = c("ctb","cph"), comment = "formance in javascript/formance")
+  )
+Description: Wraps the Formance library, which can format, and validate 'Shiny'
+    inputs.
+License: MIT + file LICENSE
+URL: https://github.com/carlganz/formancer
+BugReports: https://github.com/carlganz/formancer/issues
+RoxygenNote: 5.0.1
+Imports: shiny
